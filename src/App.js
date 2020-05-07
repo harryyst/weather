@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import Nav from './Nav';
-import Main from './Main';
+import WeatherBoard from './WeatherBoard';
 import Footer from './Footer';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div className="weather-channel__container">
       <Header />
       <Nav />
-      <Main />
+      <WeatherBoard />
       <Footer />
     </div>
   </body>
