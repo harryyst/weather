@@ -58,5 +58,5 @@ const mapDispatchToProps = dispatch => ({
 	handleChangeLimit: limit => dispatch(changeLimitAction(limit)),
 });  
   
-  export default connect(mapStateToProps)(WeatherForecast);
+  export default connect(mapStateToProps,mapDispatchToProps)(WeatherForecast);
 
